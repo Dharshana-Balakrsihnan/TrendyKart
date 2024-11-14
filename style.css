@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.navbar-links {
+    display: flex;
+    column-gap: 20px;
+}
+
+.navbar-link a {
+    text-decoration: none;
+    color: #1D232C;
+}
+
+.navbar-link a:hover {
+    text-decoration: underline;
+    color: #1D232C;
+}
+
+
+/*--side Navbar--*/
+
+.side-navbar {
+    background-color: #1D232C;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    /*--fixed place--*/
+    top: 0;
+    left: -60%;
+    padding: 20px;
+    color: white;
+    transition: 1s;
+}
+
+.side-navbar-link {
+    margin-bottom: 30px;
+}
+
+.side-navbar-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.side-navbar-links a:hover {
+    text-decoration: underline;
+}
+
+
+/*Header*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.header-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: #1D232C;
+    color: white;
+    cursor: pointer;
+}
+
+.service {
+    padding: 20px;
+}
+
+.service-container-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.service-container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-container-2 div {
+    background-color: #f2f4f7;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.new-arrival {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.arrival {
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.new-arrival-container {
+    position: relative;
+    flex-basis: 20%;
+}
+
+.new-arrival button {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    color: #1D232C;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    border: none;
+    border-radius: 10px;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.news input {
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    border: solid black 3px;
+}
+
+.news button {
+    margin-top: 10px;
+    color: #f2f4f7;
+    background-color: #1D232C;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #1D232C;
+    color: white;
+}
+
+.footer p:last-of-type {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ccc;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.news input {
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    border: solid black 3px;
+}
+
+.news button {
+    margin-top: 10px;
+    color: #f2f4f7;
+    background-color: #1D232C;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.last {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #1D232C;
+    color: #f2f4f7;
+}
+
+.product-section {
+    margin-top: 20px;
+}
+
+.product-search {
+    width: 80%;
+    border: solid 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.product-search input {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.product-search input:focus {
+    outline: none;
+}
+
+.products {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-box {
+    text-align: center;
+    flex-basis: 20%;
+}
+
+.product-box img {
+    border-radius: 10px;
+}
+
+
+/* Navbar Styles */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.side-navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.side-navbar-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar-icon-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+
+/* Side Navbar */
+
+.side-navbar {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #007bff;
+    padding: 20px;
+    transition: right 0.3s;
+    color: #fff;
+}
+
+.side-navbar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.side-navbar-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .navbar-icon-toggle {
+        display: block;
+    }
+    .side-navbar-links {
+        display: none;
+    }
+}
+
+
+/* Contact Form Styles */
+
+.contact-container {
+    background: #fff;
+    padding: 20px 30px;
+    max-width: 500px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px whitesmoke;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1D232C;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: whitesmoke;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#statusMessage {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* Media query* to display landscape or portrait*/
+
+@media screen and (max-width:700px) {
+    .navbar-icon-toggle {
+        display: block;
+    }
+    .navbar-links {
+        display: none;
+    }
+    .header-image {
+        display: none;
+    }
+    .service-container-1 {
+        display: none;
+    }
+    .service-container-2 div {
+        flex-direction: column;
+    }
+}

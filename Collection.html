@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrendyKart</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+</head>
+
+<body>
+    <!---Navbar-->
+    <nav class="navbar">
+        <h1>TrendyKart</h1>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="Collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="Contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-icon-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--side Navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="">Home</a></p>
+            <p class="side-navbar-link"><a href="">Collections</a></p>
+            <p class="side-navbar-link"><a href="">Contact</a></p>
+        </div>
+    </div>
+
+    <!--product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="products">
+            <div class="product-box">
+                <img src="White.jpeg">
+                <p>White Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="black.jpeg">
+                <p>Black Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="white1.jpeg">
+                <p>White Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="black1.jpeg">
+                <p>Black Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="images (3).jpeg">
+                <p>Black top</p>
+            </div>
+            <div class="product-box">
+                <img src="images (4).jpeg">
+                <p>White Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="White.jpeg">
+                <p>White Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="images (2).jpeg">
+                <p>Golden Blazzer & Touser</p>
+            </div>
+            <div class="product-box">
+                <img src="White.jpeg">
+                <p>White Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="black1.jpeg">
+                <p>White Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="white1.jpeg">
+                <p>White Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="black.jpeg">
+                <p>White Shirt</p>
+            </div>
+
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h2 class="HeadingTrendyKart"></h2>
+        </div>
+
+        <!--footer-->
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-box-1">
+                    <h2 class="HeadingTrendyKart">TrendyKart</h2>
+                    <p>Welcome to this week’s edition of The Knowledge Academy Weekly Newsletter. We’re excited to highlight one of our most impactful courses</p>
+                    <div class="footer-icon-container">
+                        <i class="fa-brands fa-instagram" style="color:#ffffff;"></i>
+                        <i class="fa-brands fa-twitter" style="color:#ffffff;"></i>
+                        <i class="fa-brands fa-facebook" style="color:#ffffff;"></i>
+                    </div>
+                </div>
+            </div>
+            <p>@2024trendykart.com</p>
+        </div>
+    </div>
+
+
+
+    <script src="collection.js"></script>
+</body>
+
+</html>

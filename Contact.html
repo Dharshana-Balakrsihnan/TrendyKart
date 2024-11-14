@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrendyKart</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+</head>
+
+<body>
+    <!---Navbar-->
+    <nav class="navbar">
+        <h1>TrendyKart</h1>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="Collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="Contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-icon-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--side Navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="Collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="Contact.html">Contact</a></p>
+        </div>
+    </div>
+    <div class="navbar-icon-toggle" onclick="shownavbar()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    </nav>
+
+    <!-- Side Navbar -->
+    <div class="side-navbar" id="sideNavbar">
+        <p style="text-align: right" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="Collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="Contact.html">Contact</a></p>
+        </div>
+    </div>
+
+    <!-- Contact Us Form -->
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us with any questions or feedback!</p>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+            <p id="statusMessage"></p>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+</center>
+<!--footer-->
+<div class="footer-container">
+    <div class="footer-box-1">
+        <h2 class="HeadingTrendyKart"></h2>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="HeadingTrendyKart">TrendyKart</h2>
+                <p>Welcome to this week’s edition of The Knowledge Academy Weekly Newsletter. We’re excited to highlight one of our most impactful courses</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color:#ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color:#ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color:#ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2024trendykart.com</p>
+    </div>
+</div>
+
+
+
+<script src="collection.js"></script>
+</body>
+
+</html>
